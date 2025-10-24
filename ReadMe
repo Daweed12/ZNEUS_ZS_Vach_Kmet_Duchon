@@ -9,3 +9,17 @@ https://stubask.sharepoint.com/sites/NeuronoveSiete2024/_layouts/15/stream.aspx?
 
 Predikovaná premenná: match
 
+čo treba urobiť:
+táto stránka bola tiež priložená špeciálne pre EDA, za mňa je dosť v pohode, aj keď zjednodušená, takže sa na ňu určite vyplatí mrknúť.
+https://medium.com/@pabbakavya123/a-comprehensive-guide-on-exploratory-data-analysis-eda-ab38f33d6abc
+
+
+Skontrolovať môj kód z ktorého sa začínal diať random bullshit go.(hlavne tie grafy, s tými som si najmenej istý či som ich robil dobre)
+(Ale malo by to mať svoju logiku a okrem toho že to je neprehľadné by to mohlo byť v pohode na prvý týždeň.)
+
+Hodilo by sa zamyslieť nad one-hot encodingom pre napr. race a iné stĺpce so string hodnotami. (Je to možno overkill).
+
+Doriešiť outlierov(určite transformation) a urobiť imputing(ako je napísané v kóde buď mean alebo median, probably mean).
+
+Ktokoľvek sa odváži vŕtať v tomto bordeli je za mňa frajer, ale v kľude vysvetlím pár vecí k datasetu a môjmu premýšľaniu, to možno zjednoší prácu.
+++ rád by som si nechal doriešenie outlierov a imputingu keď som už vo finnish line(za predpokladu že nie je všetko na hovno)
