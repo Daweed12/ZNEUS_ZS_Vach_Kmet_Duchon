@@ -1,20 +1,29 @@
-videá
+videá, dobré linky:
 
 https://stubask.sharepoint.com/sites/NeuronoveSiete2024/_layouts/15/stream.aspx?id=%2Fsites%2FNeuronoveSiete2024%2FShared%20Documents%2FPrednasky%2FPraktick%C3%A9%20Uk%C3%A1%C5%BEky%2FNNPI-01-Practical-Intro.mp4&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.2bd7cf73-1d8a-4adc-8aa9-bf4f4052cf7d
 
 https://stubask.sharepoint.com/sites/NeuronoveSiete2024/_layouts/15/stream.aspx?id=%2Fsites%2FNeuronoveSiete2024%2FShared%20Documents%2FPrednasky%2FPraktick%C3%A9%20Uk%C3%A1%C5%BEky%2FNNPI-02-Experiments.mp4&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.4a7ac89f-e34f-410f-a477-ca6f665daa99
 
+wandb.ai(trackovanie experimentov)
 
 
 
-Predikovaná premenná: match
 
 
 
-čo treba urobiť:
-táto stránka bola tiež priložená špeciálne pre EDA, za mňa je dosť v pohode, aj keď zjednodušená, takže sa na ňu určite vyplatí mrknúť.
-https://medium.com/@pabbakavya123/a-comprehensive-guide-on-exploratory-data-analysis-eda-ab38f33d6abc
 
-Hodilo by sa zamyslieť nad one-hot encodingom pre napr. race a iné stĺpce so string hodnotami. (Je to možno overkill).
 
-Doriešiť outlierov(určite transformation) a urobiť imputing(ako je napísané v kóde buď mean alebo median, probably mean).
+
+Čo treba urobiť(zoradené):
+
+one hot encoding pre string hodnoty(dávid)
+
+na nan values, buď vyhodiť veľa stĺtpcov/nahradiť všetko cez median(nejebať sa s tým)(krištof)
+
+
+Sobota:
+rozdeliť a transformovať dáta
+
+mať 1 multilayer perceptron/5-10 experimentov
+
+hyberparameter search(buď grid search, alebo random forest) (wandb-sweep)
