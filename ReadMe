@@ -4,7 +4,7 @@ https://stubask.sharepoint.com/sites/NeuronoveSiete2024/_layouts/15/stream.aspx?
 
 https://stubask.sharepoint.com/sites/NeuronoveSiete2024/_layouts/15/stream.aspx?id=%2Fsites%2FNeuronoveSiete2024%2FShared%20Documents%2FPrednasky%2FPraktick%C3%A9%20Uk%C3%A1%C5%BEky%2FNNPI-02-Experiments.mp4&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.4a7ac89f-e34f-410f-a477-ca6f665daa99
 
-wandb.ai(trackovanie experimentov)
+wandb.ai(trackovanie experimentov), tensor board
 
 
 
@@ -16,14 +16,6 @@ wandb.ai(trackovanie experimentov)
 
 Čo treba urobiť(zoradené):
 
-one hot encoding pre string hodnoty(dávid)
-
-na nan values, buď vyhodiť veľa stĺtpcov/nahradiť všetko cez median(nejebať sa s tým)(krištof)
-
-
-Sobota:
-rozdeliť a transformovať dáta
-
-mať 1 multilayer perceptron/5-10 experimentov
+5-10 experimentov
 
 hyberparameter search(buď grid search, alebo random forest) (wandb-sweep)
