@@ -1,0 +1,12 @@
+{"time":"2025-11-08T16:31:08.8568761+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-08T16:31:09.2065822+01:00","level":"INFO","msg":"stream: created new stream","id":"dixxoid8"}
+{"time":"2025-11-08T16:31:09.2065822+01:00","level":"INFO","msg":"handler: started","stream_id":"dixxoid8"}
+{"time":"2025-11-08T16:31:09.2076327+01:00","level":"INFO","msg":"stream: started","id":"dixxoid8"}
+{"time":"2025-11-08T16:31:09.2081473+01:00","level":"INFO","msg":"writer: started","stream_id":"dixxoid8"}
+{"time":"2025-11-08T16:31:09.2081473+01:00","level":"INFO","msg":"sender: started","stream_id":"dixxoid8"}
+{"time":"2025-11-08T16:31:15.8871896+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-08T16:31:16.233441+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-08T16:31:16.2448089+01:00","level":"INFO","msg":"stream: closing","id":"dixxoid8"}
+{"time":"2025-11-08T16:31:16.2448089+01:00","level":"INFO","msg":"handler: closed","stream_id":"dixxoid8"}
+{"time":"2025-11-08T16:31:16.2453166+01:00","level":"INFO","msg":"sender: closed","stream_id":"dixxoid8"}
+{"time":"2025-11-08T16:31:16.2453166+01:00","level":"INFO","msg":"stream: closed","id":"dixxoid8"}

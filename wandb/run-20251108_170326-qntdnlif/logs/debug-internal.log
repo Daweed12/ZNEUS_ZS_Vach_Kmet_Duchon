@@ -1,0 +1,12 @@
+{"time":"2025-11-08T17:03:26.1493504+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-08T17:03:26.4527223+01:00","level":"INFO","msg":"stream: created new stream","id":"qntdnlif"}
+{"time":"2025-11-08T17:03:26.4527223+01:00","level":"INFO","msg":"handler: started","stream_id":"qntdnlif"}
+{"time":"2025-11-08T17:03:26.4538443+01:00","level":"INFO","msg":"stream: started","id":"qntdnlif"}
+{"time":"2025-11-08T17:03:26.4538443+01:00","level":"INFO","msg":"sender: started","stream_id":"qntdnlif"}
+{"time":"2025-11-08T17:03:26.4538443+01:00","level":"INFO","msg":"writer: started","stream_id":"qntdnlif"}
+{"time":"2025-11-08T17:03:32.0370315+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-08T17:03:32.2908148+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-08T17:03:32.2999846+01:00","level":"INFO","msg":"stream: closing","id":"qntdnlif"}
+{"time":"2025-11-08T17:03:32.2999846+01:00","level":"INFO","msg":"handler: closed","stream_id":"qntdnlif"}
+{"time":"2025-11-08T17:03:32.3030356+01:00","level":"INFO","msg":"sender: closed","stream_id":"qntdnlif"}
+{"time":"2025-11-08T17:03:32.3030356+01:00","level":"INFO","msg":"stream: closed","id":"qntdnlif"}

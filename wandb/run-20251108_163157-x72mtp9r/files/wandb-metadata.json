@@ -1,0 +1,28 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.13.7",
+  "startedAt": "2025-11-08T15:31:57.806686Z",
+  "program": "Project1.ipynb",
+  "codePath": "Project1.ipynb",
+  "codePathLocal": "Project1.ipynb",
+  "git": {
+    "remote": "https://github.com/Daweed12/ZNEUS_ZS_Vach_Kmet_Duchon.git",
+    "commit": "40c9a6af4282bc37b921b2f82568fa766e9a0994"
+  },
+  "email": "xkmetk@stuba.sk",
+  "root": "C:\\Data\\VS\\5.Semester\\ZNEUS\\projekt\\ZNEUS_ZS_Vach_Kmet_Duchon",
+  "host": "Kristof",
+  "executable": "C:\\Users\\krist\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "510567378944",
+      "used": "427327344640"
+    }
+  },
+  "memory": {
+    "total": "25559359488"
+  },
+  "writerId": "r71akt4e5iigrc53atukvitzqtl53jkw"
+}

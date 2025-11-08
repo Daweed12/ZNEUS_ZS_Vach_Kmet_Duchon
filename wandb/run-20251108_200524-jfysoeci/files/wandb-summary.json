@@ -1,0 +1,1 @@
+{"test_accuracy":0.8430232558139535,"test_f1":0.4563758389261745,"_timestamp":1.7626287318190434e+09,"_wandb":{"runtime":6},"test_logloss":0.4943564290365679,"best_epoch":13,"_step":12,"dur":0.36058998107910156,"training_time_s":7.355950593948364,"train_loss":0.16282060009699126,"valid_acc":0.8373668925459826,"valid_loss":0.4988510007505726,"_runtime":6,"val_f1":0.44}
