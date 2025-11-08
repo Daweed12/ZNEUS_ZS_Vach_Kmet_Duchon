@@ -1,0 +1,23 @@
+2025-11-08 15:54:00,938 INFO    MainThread:25592 [wandb_init.py:setup_run_log_directory():706] Logging user logs to C:\Data\VS\5.Semester\ZNEUS\projekt\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\run-20251108_155400-d8zdk9gi\logs\debug.log
+2025-11-08 15:54:00,939 INFO    MainThread:25592 [wandb_init.py:setup_run_log_directory():707] Logging internal logs to C:\Data\VS\5.Semester\ZNEUS\projekt\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\run-20251108_155400-d8zdk9gi\logs\debug-internal.log
+2025-11-08 15:54:00,939 INFO    MainThread:25592 [wandb_init.py:init():833] calling init triggers
+2025-11-08 15:54:00,939 INFO    MainThread:25592 [wandb_init.py:init():838] wandb.init called with sweep_config: {}
+config: {'name': 'Maly_model_rychly_LR', 'lr': 0.005, 'max_epochs': 50, 'batch_size': 256, 'optimizer': <class 'torch.optim.adam.Adam'>, 'module__hidden_layers': [64, 32], 'module__dropout_rate': 0.2, '_wandb': {}}
+2025-11-08 15:54:02,252 INFO    MainThread:25592 [wandb_init.py:init():881] starting backend
+2025-11-08 15:54:02,252 INFO    MainThread:25592 [wandb_init.py:init():884] sending inform_init request
+2025-11-08 15:54:02,255 INFO    MainThread:25592 [wandb_init.py:init():892] backend started and connected
+2025-11-08 15:54:02,262 INFO    MainThread:25592 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2025-11-08 15:54:02,265 INFO    MainThread:25592 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'charmap' codec can't decode byte 0x88 in position 441531: character maps to <undefined>
+2025-11-08 15:54:02,265 INFO    MainThread:25592 [wandb_init.py:init():962] updated telemetry
+2025-11-08 15:54:02,325 INFO    MainThread:25592 [wandb_init.py:init():986] communicating run to backend with 90.0 second timeout
+2025-11-08 15:54:02,812 INFO    MainThread:25592 [wandb_init.py:init():1033] starting run threads in backend
+2025-11-08 15:54:03,012 INFO    MainThread:25592 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-08 15:54:03,012 INFO    MainThread:25592 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-08 15:54:03,012 INFO    MainThread:25592 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-08 15:54:03,013 INFO    MainThread:25592 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-08 15:54:03,014 INFO    MainThread:25592 [wandb_init.py:init():1073] run started, returning control to user process
+2025-11-08 15:59:24,589 INFO    MainThread:25592 [wandb_run.py:_finish():2272] finishing run xkmetk-slovak-technical-university/SpeedDating-MLP/d8zdk9gi
+2025-11-08 15:59:24,590 INFO    MainThread:25592 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-11-08 15:59:24,591 INFO    MainThread:25592 [wandb_run.py:_restore():2453] restore
+2025-11-08 15:59:24,591 INFO    MainThread:25592 [wandb_run.py:_restore():2459] restore done
+2025-11-08 15:59:25,445 INFO    MainThread:25592 [wandb_run.py:_footer_sync_info():3835] logging synced files
