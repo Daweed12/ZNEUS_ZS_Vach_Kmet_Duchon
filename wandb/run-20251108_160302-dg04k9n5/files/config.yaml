@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            97nvd0fln09p6067301geaas4hna0uem:
+                codePath: Project1.ipynb
+                codePathLocal: Project1.ipynb
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "510567378944"
+                        used: "424613093376"
+                email: xkmetk@stuba.sk
+                executable: C:\Users\krist\AppData\Local\Programs\Python\Python313\python.exe
+                git:
+                    commit: bf98a8baaa61febb1c8ab4984a542663f749b898
+                    remote: https://github.com/Daweed12/ZNEUS_ZS_Vach_Kmet_Duchon.git
+                host: Kristof
+                memory:
+                    total: "25559359488"
+                os: Windows-11-10.0.26100-SP0
+                program: Project1.ipynb
+                python: CPython 3.13.7
+                root: C:\Data\VS\5.Semester\ZNEUS\projekt\ZNEUS_ZS_Vach_Kmet_Duchon
+                startedAt: "2025-11-08T15:03:02.078593Z"
+                writerId: 97nvd0fln09p6067301geaas4hna0uem
+        m: []
+        python_version: 3.13.7
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 32
+                - 53
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 32
+                - 53
+            "3":
+                - 1
+                - 2
+                - 13
+                - 16
+            "4": 3.13.7
+            "5": 0.22.3
+            "8":
+                - 1
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
+batch_size:
+    value: 256
+lr:
+    value: 0.005
+max_epochs:
+    value: 50
+module__dropout_rate:
+    value: 0.2
+module__hidden_layers:
+    value:
+        - 64
+        - 32
+name:
+    value: Maly_model_rychly_LR
+optimizer:
+    value: torch.optim.adam.Adam

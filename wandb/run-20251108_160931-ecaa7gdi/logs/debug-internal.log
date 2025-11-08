@@ -1,0 +1,12 @@
+{"time":"2025-11-08T16:09:31.9895645+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-08T16:09:32.3380853+01:00","level":"INFO","msg":"stream: created new stream","id":"ecaa7gdi"}
+{"time":"2025-11-08T16:09:32.34062+01:00","level":"INFO","msg":"handler: started","stream_id":"ecaa7gdi"}
+{"time":"2025-11-08T16:09:32.3418631+01:00","level":"INFO","msg":"stream: started","id":"ecaa7gdi"}
+{"time":"2025-11-08T16:09:32.3418631+01:00","level":"INFO","msg":"writer: started","stream_id":"ecaa7gdi"}
+{"time":"2025-11-08T16:09:32.3418631+01:00","level":"INFO","msg":"sender: started","stream_id":"ecaa7gdi"}
+{"time":"2025-11-08T16:09:39.5033569+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-08T16:09:39.7389003+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-08T16:09:39.7476272+01:00","level":"INFO","msg":"stream: closing","id":"ecaa7gdi"}
+{"time":"2025-11-08T16:09:39.7476272+01:00","level":"INFO","msg":"handler: closed","stream_id":"ecaa7gdi"}
+{"time":"2025-11-08T16:09:39.7506395+01:00","level":"INFO","msg":"sender: closed","stream_id":"ecaa7gdi"}
+{"time":"2025-11-08T16:09:39.7506395+01:00","level":"INFO","msg":"stream: closed","id":"ecaa7gdi"}
