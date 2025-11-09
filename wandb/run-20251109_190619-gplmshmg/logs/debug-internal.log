@@ -1,0 +1,12 @@
+{"time":"2025-11-09T19:06:19.7844056+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-09T19:06:20.2502733+01:00","level":"INFO","msg":"stream: created new stream","id":"gplmshmg"}
+{"time":"2025-11-09T19:06:20.2502733+01:00","level":"INFO","msg":"handler: started","stream_id":"gplmshmg"}
+{"time":"2025-11-09T19:06:20.2513681+01:00","level":"INFO","msg":"stream: started","id":"gplmshmg"}
+{"time":"2025-11-09T19:06:20.2513681+01:00","level":"INFO","msg":"writer: started","stream_id":"gplmshmg"}
+{"time":"2025-11-09T19:06:20.2513681+01:00","level":"INFO","msg":"sender: started","stream_id":"gplmshmg"}
+{"time":"2025-11-09T19:06:26.9868767+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-09T19:06:27.3954208+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-09T19:06:27.4072168+01:00","level":"INFO","msg":"stream: closing","id":"gplmshmg"}
+{"time":"2025-11-09T19:06:27.4072168+01:00","level":"INFO","msg":"handler: closed","stream_id":"gplmshmg"}
+{"time":"2025-11-09T19:06:27.4098579+01:00","level":"INFO","msg":"sender: closed","stream_id":"gplmshmg"}
+{"time":"2025-11-09T19:06:27.4098579+01:00","level":"INFO","msg":"stream: closed","id":"gplmshmg"}
