@@ -1,10 +1,91 @@
-videá, dobré linky:
+# README — Match Prediction
 
+## Overview
+End-to-end pipeline for predicting `match` from questionnaire data. The project covers data cleaning, feature engineering/selection, preprocessing, and MLP models (with and without residual connections). Outputs are ready-to-train tensors for a binary classifier.
+
+## Data & Target
+- Target column: `match` (binary).
+- Input features: numeric columns + selected categorical columns (`race`, `race_o`, `gender`, `field`).
+- final count was **71**
+
+## Preprocessing
+- Numeric: `KNNImputer(n_neighbors=5)` → `StandardScaler`.
+- Categorical:
+  - `race`, `race_o`, `gender`: `SimpleImputer(fill_value="missing")` → `OneHotEncoder(handle_unknown="ignore", sparse_output=False)`.
+  - `field`: custom `FieldCleaner` (lowercasing, regex cleanup, synonym mapping) → `TargetEncoder(smoothing=50.0, handle_missing="value", handle_unknown="value")`.
+- Column-wise wiring via `ColumnTransformer` wrapped in a `Pipeline`.
+- Outputs transformed to dense `float32`; targets also cast to `float32`.
+
+## Feature Selection (Model-Agnostic Voting)
+From each scorer, take TOP_K features, then vote and rank by average position:
+- Variance (simple variance as a score).
+- Mutual Information (`mutual_info_classif`).
+- Chi-squared (`chi2`, requires non-negative scaling).
+- ANOVA F-score (`f_classif`).
+- RFE with Logistic Regression (full ranking via `n_features_to_select=1`).
+- SelectFromModel with Logistic Regression (absolute coefficient magnitude).
+
+Final set: features with votes ≥ `VOTE_THRESHOLD`; fallback to most frequent TOP_K if none pass.
+
+## Models
+- `MLPModule`: standard feed-forward MLP repeating `Linear → (BatchNorm) → Activation → Dropout`, final `Linear(..., 1)`.
+- `MLPWithSkipConnections`: same per-block stack but with residual connections:
+  - Each block computes `F(x)` and adds a skip path `P(x)` (identity or linear projection when dimensions change), then post-add activation.
+  - Improves gradient flow and stability on deeper stacks.
+- Loss: `BCEWithLogitsLoss`.
+- Optimizer: typically `AdamW` with weight decay.
+
+## Training Outline
+1. Fit the preprocessor (TargetEncoder needs both `X` and `y`).
+2. Transform `X_train`, `X_val`, `X_test` to `float32`.
+3. Select features via the voting scheme; subset transformed matrices accordingly if needed.
+4. Initialize and train MLP; monitor F1 on the validation set; save the best checkpoint.
+5. For inference, apply `sigmoid` to logits to obtain probabilities.
+
+## Experiments (Summary)
+- Downsampling and oversampling were tested; both had negative impact.
+- Oversampling degraded F1 from 0.55 to 0.45 on the same data and settings.
+- Final models are trained on the original class distribution.
+- Multiple experiments on using different activation function (ReLU, Leaky ReLU, Silu,...) => Best results was ReLU
+- Using different optimalizers (Adam, RSMprop, AdamW, ...) => Best results on Adam
+
+## Quick Start (Sketch)
+```python
+# 1) Preprocess
+preprocessor.fit(X_train, y_train)
+X_train_p = preprocessor.transform(X_train).astype(np.float32)
+X_val_p   = preprocessor.transform(X_val).astype(np.float32)
+y_train_f = y_train.to_numpy().astype(np.float32)
+y_val_f   = y_val.to_numpy().astype(np.float32)
+
+
+# 3) Model
+model = MLPWithSkipConnections(
+    input_features=X_train_p.shape[1],
+    hidden_layers=[256, 128, 64],
+    dropout_rate=0.3,
+    use_batch_norm=True,
+    activation_fn=nn.ReLU,
+)
+criterion = nn.BCEWithLogitsLoss()
+optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
+
+
+
+
+
+
+
+
+
+
+Zdroje a linky, ktoré sme použili:
 https://stubask.sharepoint.com/sites/NeuronoveSiete2024/_layouts/15/stream.aspx?id=%2Fsites%2FNeuronoveSiete2024%2FShared%20Documents%2FPrednasky%2FPraktick%C3%A9%20Uk%C3%A1%C5%BEky%2FNNPI-01-Practical-Intro.mp4&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.2bd7cf73-1d8a-4adc-8aa9-bf4f4052cf7d
 
 https://stubask.sharepoint.com/sites/NeuronoveSiete2024/_layouts/15/stream.aspx?id=%2Fsites%2FNeuronoveSiete2024%2FShared%20Documents%2FPrednasky%2FPraktick%C3%A9%20Uk%C3%A1%C5%BEky%2FNNPI-02-Experiments.mp4&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.4a7ac89f-e34f-410f-a477-ca6f665daa99
 
-wandb.ai(trackovanie experimentov), tensor board
+Na experiment tracking sme využili: https://wandb.ai/site/
+
 
 
 

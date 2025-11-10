@@ -1,0 +1,13 @@
+Test F1: 0.5361 | Test LogLoss: 0.5116 | Test Acc: 0.8256
+Test Confusion Matrix:
+[[748 107]
+ [ 73 104]]
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.87      0.89       855
+           1       0.49      0.59      0.54       177
+
+    accuracy                           0.83      1032
+   macro avg       0.70      0.73      0.71      1032
+weighted avg       0.84      0.83      0.83      1032
