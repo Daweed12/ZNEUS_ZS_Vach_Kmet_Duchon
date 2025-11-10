@@ -1,0 +1,17 @@
+{"time":"2025-11-09T19:41:18.1793913+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-09T19:41:20.5007177+01:00","level":"INFO","msg":"stream: created new stream","id":"xthunep9"}
+{"time":"2025-11-09T19:41:20.5012657+01:00","level":"INFO","msg":"handler: started","stream_id":"xthunep9"}
+{"time":"2025-11-09T19:41:20.5043444+01:00","level":"INFO","msg":"stream: started","id":"xthunep9"}
+{"time":"2025-11-09T19:41:20.5049678+01:00","level":"INFO","msg":"writer: started","stream_id":"xthunep9"}
+{"time":"2025-11-09T19:41:20.5049678+01:00","level":"INFO","msg":"sender: started","stream_id":"xthunep9"}
+{"time":"2025-11-09T19:53:46.4864277+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/xkmetk-slovak-technical-university/SpeedDating-MLP/xthunep9/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-11-09T19:53:48.713409+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/xkmetk-slovak-technical-university/SpeedDating-MLP/xthunep9/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-11-09T22:08:27.0110095+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/xkmetk-slovak-technical-university/SpeedDating-MLP/xthunep9/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-11-09T22:08:29.8793088+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-11-09T22:08:32.4345096+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-11-09T22:08:36.5949019+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-11-09T22:08:36.9965027+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/xkmetk-slovak-technical-university/SpeedDating-MLP/xthunep9/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-11-10T00:26:09.4771301+01:00","level":"WARN","msg":"sender: taking a long time","seconds":8255.6443355,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"pcf24qlowxav\" connection_id:\"1(127.0.0.1:51466)\")"}
+{"time":"2025-11-10T00:26:09.7217043+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/xkmetk-slovak-technical-university/SpeedDating-MLP/xthunep9/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-11-10T00:26:09.8357783+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-11-10T00:26:27.8191781+01:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":8277.9590133,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"pcf24qlowxav\" connection_id:\"1(127.0.0.1:51466)\")"}

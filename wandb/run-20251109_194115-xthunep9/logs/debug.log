@@ -1,0 +1,25 @@
+2025-11-09 19:41:15,891 INFO    MainThread:17880 [wandb_setup.py:_flush():81] Current SDK version is 0.22.3
+2025-11-09 19:41:15,892 INFO    MainThread:17880 [wandb_setup.py:_flush():81] Configure stats pid to 17880
+2025-11-09 19:41:15,892 INFO    MainThread:17880 [wandb_setup.py:_flush():81] Loading settings from C:\Users\krist\.config\wandb\settings
+2025-11-09 19:41:15,892 INFO    MainThread:17880 [wandb_setup.py:_flush():81] Loading settings from C:\Data\VS\5.Semester\ZNEUS\projekt\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\settings
+2025-11-09 19:41:15,892 INFO    MainThread:17880 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-11-09 19:41:15,892 INFO    MainThread:17880 [wandb_init.py:setup_run_log_directory():706] Logging user logs to C:\Data\VS\5.Semester\ZNEUS\projekt\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\run-20251109_194115-xthunep9\logs\debug.log
+2025-11-09 19:41:15,893 INFO    MainThread:17880 [wandb_init.py:setup_run_log_directory():707] Logging internal logs to C:\Data\VS\5.Semester\ZNEUS\projekt\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\run-20251109_194115-xthunep9\logs\debug-internal.log
+2025-11-09 19:41:15,893 INFO    MainThread:17880 [wandb_init.py:monkeypatch_ipython():625] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001F86191BB60>
+2025-11-09 19:41:15,894 INFO    MainThread:17880 [wandb_init.py:init():833] calling init triggers
+2025-11-09 19:41:15,894 INFO    MainThread:17880 [wandb_init.py:init():838] wandb.init called with sweep_config: {}
+config: {'name': 'exp_pos_w_2', 'lr': 0.0008, 'max_epochs': 60, 'batch_size': 1024, 'optimizer': <class 'torch.optim.adam.Adam'>, 'module__hidden_layers': [512, 256, 128], 'module__dropout_rate': 0.3, 'pos_weight': 2.0, '_wandb': {}}
+2025-11-09 19:41:15,894 INFO    MainThread:17880 [wandb_init.py:init():881] starting backend
+2025-11-09 19:41:18,137 INFO    MainThread:17880 [wandb_init.py:init():884] sending inform_init request
+2025-11-09 19:41:18,177 INFO    MainThread:17880 [wandb_init.py:init():892] backend started and connected
+2025-11-09 19:41:18,183 INFO    MainThread:17880 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2025-11-09 19:41:18,186 INFO    MainThread:17880 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'charmap' codec can't decode byte 0x88 in position 442616: character maps to <undefined>
+2025-11-09 19:41:18,187 INFO    MainThread:17880 [wandb_init.py:init():962] updated telemetry
+2025-11-09 19:41:18,233 INFO    MainThread:17880 [wandb_init.py:init():986] communicating run to backend with 90.0 second timeout
+2025-11-09 19:41:21,079 INFO    MainThread:17880 [wandb_init.py:init():1033] starting run threads in backend
+2025-11-09 19:41:21,297 INFO    MainThread:17880 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-09 19:41:21,297 INFO    MainThread:17880 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-09 19:41:21,297 INFO    MainThread:17880 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-09 19:41:21,297 INFO    MainThread:17880 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-09 19:41:21,301 INFO    MainThread:17880 [wandb_init.py:init():1073] run started, returning control to user process
+2025-11-09 19:41:23,703 INFO    MainThread:17880 [wandb_init.py:_post_run_cell_hook():595] [no run ID] resuming backend

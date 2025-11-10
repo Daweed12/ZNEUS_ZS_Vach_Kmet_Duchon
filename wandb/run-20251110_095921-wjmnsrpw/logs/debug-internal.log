@@ -1,0 +1,12 @@
+{"time":"2025-11-10T09:59:21.3621946+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-10T09:59:21.7402416+01:00","level":"INFO","msg":"stream: created new stream","id":"wjmnsrpw"}
+{"time":"2025-11-10T09:59:21.7402416+01:00","level":"INFO","msg":"handler: started","stream_id":"wjmnsrpw"}
+{"time":"2025-11-10T09:59:21.7413104+01:00","level":"INFO","msg":"stream: started","id":"wjmnsrpw"}
+{"time":"2025-11-10T09:59:21.7413104+01:00","level":"INFO","msg":"writer: started","stream_id":"wjmnsrpw"}
+{"time":"2025-11-10T09:59:21.7413104+01:00","level":"INFO","msg":"sender: started","stream_id":"wjmnsrpw"}
+{"time":"2025-11-10T09:59:26.8208391+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T09:59:27.1014349+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T09:59:27.1113896+01:00","level":"INFO","msg":"stream: closing","id":"wjmnsrpw"}
+{"time":"2025-11-10T09:59:27.1113896+01:00","level":"INFO","msg":"handler: closed","stream_id":"wjmnsrpw"}
+{"time":"2025-11-10T09:59:27.1118954+01:00","level":"INFO","msg":"sender: closed","stream_id":"wjmnsrpw"}
+{"time":"2025-11-10T09:59:27.1118954+01:00","level":"INFO","msg":"stream: closed","id":"wjmnsrpw"}

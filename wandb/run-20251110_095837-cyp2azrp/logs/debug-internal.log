@@ -1,0 +1,12 @@
+{"time":"2025-11-10T09:58:37.7701304+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-10T09:58:38.1964122+01:00","level":"INFO","msg":"stream: created new stream","id":"cyp2azrp"}
+{"time":"2025-11-10T09:58:38.1964122+01:00","level":"INFO","msg":"handler: started","stream_id":"cyp2azrp"}
+{"time":"2025-11-10T09:58:38.1974652+01:00","level":"INFO","msg":"stream: started","id":"cyp2azrp"}
+{"time":"2025-11-10T09:58:38.1974652+01:00","level":"INFO","msg":"writer: started","stream_id":"cyp2azrp"}
+{"time":"2025-11-10T09:58:38.1974652+01:00","level":"INFO","msg":"sender: started","stream_id":"cyp2azrp"}
+{"time":"2025-11-10T09:58:42.2579605+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T09:58:42.534228+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T09:58:42.5433554+01:00","level":"INFO","msg":"stream: closing","id":"cyp2azrp"}
+{"time":"2025-11-10T09:58:42.5433554+01:00","level":"INFO","msg":"handler: closed","stream_id":"cyp2azrp"}
+{"time":"2025-11-10T09:58:42.5603551+01:00","level":"INFO","msg":"sender: closed","stream_id":"cyp2azrp"}
+{"time":"2025-11-10T09:58:42.5603551+01:00","level":"INFO","msg":"stream: closed","id":"cyp2azrp"}
