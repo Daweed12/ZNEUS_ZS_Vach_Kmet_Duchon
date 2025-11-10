@@ -1,0 +1,12 @@
+{"time":"2025-11-10T10:11:31.6545004+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-10T10:11:32.1493379+01:00","level":"INFO","msg":"stream: created new stream","id":"oxlsvmyp"}
+{"time":"2025-11-10T10:11:32.1493379+01:00","level":"INFO","msg":"handler: started","stream_id":"oxlsvmyp"}
+{"time":"2025-11-10T10:11:32.1505776+01:00","level":"INFO","msg":"stream: started","id":"oxlsvmyp"}
+{"time":"2025-11-10T10:11:32.1505776+01:00","level":"INFO","msg":"writer: started","stream_id":"oxlsvmyp"}
+{"time":"2025-11-10T10:11:32.1505776+01:00","level":"INFO","msg":"sender: started","stream_id":"oxlsvmyp"}
+{"time":"2025-11-10T10:11:43.347895+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T10:11:43.7175385+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T10:11:43.7302944+01:00","level":"INFO","msg":"stream: closing","id":"oxlsvmyp"}
+{"time":"2025-11-10T10:11:43.7302944+01:00","level":"INFO","msg":"handler: closed","stream_id":"oxlsvmyp"}
+{"time":"2025-11-10T10:11:43.7308041+01:00","level":"INFO","msg":"sender: closed","stream_id":"oxlsvmyp"}
+{"time":"2025-11-10T10:11:43.7308041+01:00","level":"INFO","msg":"stream: closed","id":"oxlsvmyp"}

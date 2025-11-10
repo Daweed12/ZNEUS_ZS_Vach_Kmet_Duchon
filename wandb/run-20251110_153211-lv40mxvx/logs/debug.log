@@ -1,0 +1,48 @@
+2025-11-10 15:32:11,949 INFO    MainThread:15592 [wandb_setup.py:_flush():81] Current SDK version is 0.22.3
+2025-11-10 15:32:11,949 INFO    MainThread:15592 [wandb_setup.py:_flush():81] Configure stats pid to 15592
+2025-11-10 15:32:11,949 INFO    MainThread:15592 [wandb_setup.py:_flush():81] Loading settings from C:\Users\krist\.config\wandb\settings
+2025-11-10 15:32:11,949 INFO    MainThread:15592 [wandb_setup.py:_flush():81] Loading settings from C:\Data\VS\5.Semester\ZNEUS\projekt\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\settings
+2025-11-10 15:32:11,949 INFO    MainThread:15592 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-11-10 15:32:11,950 INFO    MainThread:15592 [wandb_init.py:setup_run_log_directory():706] Logging user logs to C:\Data\VS\5.Semester\ZNEUS\projekt\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\run-20251110_153211-lv40mxvx\logs\debug.log
+2025-11-10 15:32:11,950 INFO    MainThread:15592 [wandb_init.py:setup_run_log_directory():707] Logging internal logs to C:\Data\VS\5.Semester\ZNEUS\projekt\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\run-20251110_153211-lv40mxvx\logs\debug-internal.log
+2025-11-10 15:32:11,951 INFO    MainThread:15592 [wandb_init.py:monkeypatch_ipython():625] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001A149056660>
+2025-11-10 15:32:11,951 INFO    MainThread:15592 [wandb_init.py:init():833] calling init triggers
+2025-11-10 15:32:11,951 INFO    MainThread:15592 [wandb_init.py:init():838] wandb.init called with sweep_config: {}
+config: {'name': 'exp_pos_w_2', 'lr': 0.0008, 'max_epochs': 60, 'batch_size': 1024, 'optimizer': <class 'torch.optim.adam.Adam'>, 'module__hidden_layers': [512, 256, 128], 'module__dropout_rate': 0.3, '_wandb': {}}
+2025-11-10 15:32:11,951 INFO    MainThread:15592 [wandb_init.py:init():881] starting backend
+2025-11-10 15:32:14,211 WARNING MainThread:15592 [wandb_init.py:init():1588] [no run ID] interrupted
+Traceback (most recent call last):
+  File "C:\Users\krist\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\wandb_init.py", line 1579, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "C:\Users\krist\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\wandb_init.py", line 883, in init
+    service = self._wl.ensure_service()
+  File "C:\Users\krist\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\wandb_setup.py", line 401, in ensure_service
+    self._connection = service_connection.connect_to_service(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._asyncer,
+        ^^^^^^^^^^^^^^
+        self.settings,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\krist\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\service\service_connection.py", line 39, in connect_to_service
+    return _start_and_connect_service(asyncer, settings)
+  File "C:\Users\krist\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\service\service_connection.py", line 54, in _start_and_connect_service
+    client = proc.token.connect(asyncer=asyncer)
+  File "C:\Users\krist\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\service\service_token.py", line 151, in connect
+    reader, writer = asyncer.run(
+                     ~~~~~~~~~~~^
+        lambda: asyncio.open_connection("localhost", self._port),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\krist\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\asyncio_manager.py", line 136, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\krist\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 451, in result
+    self._condition.wait(timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\krist\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 359, in wait
+    waiter.acquire()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt

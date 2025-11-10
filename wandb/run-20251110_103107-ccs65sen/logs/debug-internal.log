@@ -1,0 +1,12 @@
+{"time":"2025-11-10T10:31:07.0941232+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-10T10:31:07.4751481+01:00","level":"INFO","msg":"stream: created new stream","id":"ccs65sen"}
+{"time":"2025-11-10T10:31:07.4751481+01:00","level":"INFO","msg":"handler: started","stream_id":"ccs65sen"}
+{"time":"2025-11-10T10:31:07.4764754+01:00","level":"INFO","msg":"stream: started","id":"ccs65sen"}
+{"time":"2025-11-10T10:31:07.4764754+01:00","level":"INFO","msg":"writer: started","stream_id":"ccs65sen"}
+{"time":"2025-11-10T10:31:07.4764754+01:00","level":"INFO","msg":"sender: started","stream_id":"ccs65sen"}
+{"time":"2025-11-10T10:31:20.62695+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T10:31:21.1182847+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T10:31:21.127507+01:00","level":"INFO","msg":"stream: closing","id":"ccs65sen"}
+{"time":"2025-11-10T10:31:21.127507+01:00","level":"INFO","msg":"handler: closed","stream_id":"ccs65sen"}
+{"time":"2025-11-10T10:31:21.1291583+01:00","level":"INFO","msg":"sender: closed","stream_id":"ccs65sen"}
+{"time":"2025-11-10T10:31:21.1291583+01:00","level":"INFO","msg":"stream: closed","id":"ccs65sen"}

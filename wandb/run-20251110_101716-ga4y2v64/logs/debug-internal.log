@@ -1,0 +1,12 @@
+{"time":"2025-11-10T10:17:16.9140394+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-10T10:17:17.2985186+01:00","level":"INFO","msg":"stream: created new stream","id":"ga4y2v64"}
+{"time":"2025-11-10T10:17:17.2985186+01:00","level":"INFO","msg":"handler: started","stream_id":"ga4y2v64"}
+{"time":"2025-11-10T10:17:17.2995449+01:00","level":"INFO","msg":"stream: started","id":"ga4y2v64"}
+{"time":"2025-11-10T10:17:17.2995449+01:00","level":"INFO","msg":"sender: started","stream_id":"ga4y2v64"}
+{"time":"2025-11-10T10:17:17.2995449+01:00","level":"INFO","msg":"writer: started","stream_id":"ga4y2v64"}
+{"time":"2025-11-10T10:17:23.1796941+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T10:17:23.5899659+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T10:17:23.5982022+01:00","level":"INFO","msg":"stream: closing","id":"ga4y2v64"}
+{"time":"2025-11-10T10:17:23.5982022+01:00","level":"INFO","msg":"handler: closed","stream_id":"ga4y2v64"}
+{"time":"2025-11-10T10:17:23.59982+01:00","level":"INFO","msg":"sender: closed","stream_id":"ga4y2v64"}
+{"time":"2025-11-10T10:17:23.6003502+01:00","level":"INFO","msg":"stream: closed","id":"ga4y2v64"}

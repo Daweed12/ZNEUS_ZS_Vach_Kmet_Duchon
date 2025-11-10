@@ -1,0 +1,12 @@
+{"time":"2025-11-10T10:38:38.1686268+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-10T10:38:38.5380769+01:00","level":"INFO","msg":"stream: created new stream","id":"8weagyx3"}
+{"time":"2025-11-10T10:38:38.5387126+01:00","level":"INFO","msg":"handler: started","stream_id":"8weagyx3"}
+{"time":"2025-11-10T10:38:38.5392534+01:00","level":"INFO","msg":"stream: started","id":"8weagyx3"}
+{"time":"2025-11-10T10:38:38.5397779+01:00","level":"INFO","msg":"writer: started","stream_id":"8weagyx3"}
+{"time":"2025-11-10T10:38:38.5397779+01:00","level":"INFO","msg":"sender: started","stream_id":"8weagyx3"}
+{"time":"2025-11-10T10:38:52.5657898+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T10:38:52.8706606+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T10:38:52.8793263+01:00","level":"INFO","msg":"stream: closing","id":"8weagyx3"}
+{"time":"2025-11-10T10:38:52.8793263+01:00","level":"INFO","msg":"handler: closed","stream_id":"8weagyx3"}
+{"time":"2025-11-10T10:38:52.8800708+01:00","level":"INFO","msg":"sender: closed","stream_id":"8weagyx3"}
+{"time":"2025-11-10T10:38:52.8800708+01:00","level":"INFO","msg":"stream: closed","id":"8weagyx3"}

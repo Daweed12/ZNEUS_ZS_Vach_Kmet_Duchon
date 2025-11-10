@@ -1,0 +1,12 @@
+{"time":"2025-11-10T10:11:16.2193179+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-10T10:11:16.8168808+01:00","level":"INFO","msg":"stream: created new stream","id":"meqgmikt"}
+{"time":"2025-11-10T10:11:16.8168808+01:00","level":"INFO","msg":"handler: started","stream_id":"meqgmikt"}
+{"time":"2025-11-10T10:11:16.8179233+01:00","level":"INFO","msg":"stream: started","id":"meqgmikt"}
+{"time":"2025-11-10T10:11:16.8179233+01:00","level":"INFO","msg":"writer: started","stream_id":"meqgmikt"}
+{"time":"2025-11-10T10:11:16.8179233+01:00","level":"INFO","msg":"sender: started","stream_id":"meqgmikt"}
+{"time":"2025-11-10T10:11:22.1946827+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T10:11:22.491063+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T10:11:22.5009+01:00","level":"INFO","msg":"stream: closing","id":"meqgmikt"}
+{"time":"2025-11-10T10:11:22.5009+01:00","level":"INFO","msg":"handler: closed","stream_id":"meqgmikt"}
+{"time":"2025-11-10T10:11:22.5031413+01:00","level":"INFO","msg":"sender: closed","stream_id":"meqgmikt"}
+{"time":"2025-11-10T10:11:22.5031413+01:00","level":"INFO","msg":"stream: closed","id":"meqgmikt"}

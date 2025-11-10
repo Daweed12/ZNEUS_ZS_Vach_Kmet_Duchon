@@ -1,0 +1,1 @@
+{"best_epoch":13,"dur":0.10335564613342285,"train_loss":0.5925233289212577,"valid_loss":0.994670143634052,"test_accuracy":0.7645348837209303,"valid_acc":0.7734753146176185,"_wandb":{"runtime":1},"_timestamp":1.762771144518863e+09,"val_f1":0.5,"test_f1":0.49269311064718163,"training_time_s":2.5723159313201904,"_runtime":1,"_step":12,"test_logloss":0.5116253777414956}
