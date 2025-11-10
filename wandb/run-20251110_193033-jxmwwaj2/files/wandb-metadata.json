@@ -1,0 +1,28 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.9",
+  "startedAt": "2025-11-10T18:30:33.847240Z",
+  "program": "c:\\Users\\david\\zneus\\zneus_2025\\ZNEUS_ZS_Vach_Kmet_Duchon\\Project1.ipynb",
+  "codePath": "Project1.ipynb",
+  "codePathLocal": "Project1.ipynb",
+  "git": {
+    "remote": "https://github.com/Daweed12/ZNEUS_ZS_Vach_Kmet_Duchon.git",
+    "commit": "01e07eae82ce156fe302e66e425d8b6551977480"
+  },
+  "email": "xvachd@stuba.sk",
+  "root": "c:\\Users\\david\\zneus\\zneus_2025\\ZNEUS_ZS_Vach_Kmet_Duchon",
+  "host": "razdvach",
+  "executable": "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "1022632464384",
+      "used": "591350362112"
+    }
+  },
+  "memory": {
+    "total": "33805824000"
+  },
+  "writerId": "r1ojfubufdjsl1wru3aytjgoi0ha8f0l"
+}

@@ -1,0 +1,28 @@
+2025-11-10 18:06:06,391 INFO    MainThread:27888 [wandb_init.py:setup_run_log_directory():686] Logging user logs to c:\Users\david\zneus\zneus_2025\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\run-20251110_180606-eneqx24z\logs\debug.log
+2025-11-10 18:06:06,391 INFO    MainThread:27888 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to c:\Users\david\zneus\zneus_2025\ZNEUS_ZS_Vach_Kmet_Duchon\wandb\run-20251110_180606-eneqx24z\logs\debug-internal.log
+2025-11-10 18:06:06,392 INFO    MainThread:27888 [wandb_init.py:monkeypatch_ipython():605] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000262EF8AFC10>
+2025-11-10 18:06:06,392 INFO    MainThread:27888 [wandb_init.py:init():813] calling init triggers
+2025-11-10 18:06:06,417 INFO    MainThread:27888 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'name': 'exp_pos_w_2', 'lr': 0.0008, 'max_epochs': 60, 'batch_size': 1024, 'optimizer': <class 'torch.optim.adam.Adam'>, 'module__hidden_layers': [512, 256, 128], 'module__dropout_rate': 0.3, '_wandb': {}}
+2025-11-10 18:06:06,418 INFO    MainThread:27888 [wandb_init.py:init():861] starting backend
+2025-11-10 18:06:06,418 INFO    MainThread:27888 [wandb_init.py:init():864] sending inform_init request
+2025-11-10 18:06:06,420 INFO    MainThread:27888 [wandb_init.py:init():872] backend started and connected
+2025-11-10 18:06:06,436 INFO    MainThread:27888 [wandb_run.py:_label_probe_notebook():1330] probe notebook
+2025-11-10 18:06:06,437 INFO    MainThread:27888 [wandb_run.py:_label_probe_notebook():1340] Unable to probe notebook: 'charmap' codec can't decode byte 0x8d in position 1225: character maps to <undefined>
+2025-11-10 18:06:06,437 INFO    MainThread:27888 [wandb_init.py:init():942] updated telemetry
+2025-11-10 18:06:06,504 INFO    MainThread:27888 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2025-11-10 18:06:07,118 INFO    MainThread:27888 [wandb_init.py:init():1017] starting run threads in backend
+2025-11-10 18:06:07,341 INFO    MainThread:27888 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-10 18:06:07,341 INFO    MainThread:27888 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-10 18:06:07,341 INFO    MainThread:27888 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-10 18:06:07,341 INFO    MainThread:27888 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-10 18:06:07,341 INFO    MainThread:27888 [wandb_init.py:init():1057] run started, returning control to user process
+2025-11-10 18:06:07,352 INFO    MainThread:27888 [wandb_watch.py:_watch():68] Watching
+2025-11-10 18:06:10,085 INFO    MainThread:27888 [wandb_run.py:_finish():2272] finishing run xkmetk-slovak-technical-university/SpeedDating-MLP/eneqx24z
+2025-11-10 18:06:10,086 INFO    MainThread:27888 [jupyter.py:save_history():480] not saving jupyter history
+2025-11-10 18:06:10,086 INFO    MainThread:27888 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-11-10 18:06:10,086 INFO    MainThread:27888 [wandb_init.py:_jupyter_teardown():590] cleaning up jupyter logic
+2025-11-10 18:06:10,087 INFO    MainThread:27888 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-11-10 18:06:10,087 INFO    MainThread:27888 [wandb_run.py:_restore():2453] restore
+2025-11-10 18:06:10,087 INFO    MainThread:27888 [wandb_run.py:_restore():2459] restore done
+2025-11-10 18:06:11,178 INFO    MainThread:27888 [wandb_run.py:_footer_sync_info():3867] logging synced files
