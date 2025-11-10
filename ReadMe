@@ -49,26 +49,9 @@ Final set: features with votes ≥ `VOTE_THRESHOLD`; fallback to most frequent T
 - Multiple experiments on using different activation function (ReLU, Leaky ReLU, Silu,...) => Best results was ReLU
 - Using different optimalizers (Adam, RSMprop, AdamW, ...) => Best results on Adam
 
-## Quick Start (Sketch)
-```python
-# 1) Preprocess
-preprocessor.fit(X_train, y_train)
-X_train_p = preprocessor.transform(X_train).astype(np.float32)
-X_val_p   = preprocessor.transform(X_val).astype(np.float32)
-y_train_f = y_train.to_numpy().astype(np.float32)
-y_val_f   = y_val.to_numpy().astype(np.float32)
+## CHANGELOG:
 
 
-# 3) Model
-model = MLPWithSkipConnections(
-    input_features=X_train_p.shape[1],
-    hidden_layers=[256, 128, 64],
-    dropout_rate=0.3,
-    use_batch_norm=True,
-    activation_fn=nn.ReLU,
-)
-criterion = nn.BCEWithLogitsLoss()
-optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
 
 
 
@@ -85,18 +68,3 @@ https://stubask.sharepoint.com/sites/NeuronoveSiete2024/_layouts/15/stream.aspx?
 https://stubask.sharepoint.com/sites/NeuronoveSiete2024/_layouts/15/stream.aspx?id=%2Fsites%2FNeuronoveSiete2024%2FShared%20Documents%2FPrednasky%2FPraktick%C3%A9%20Uk%C3%A1%C5%BEky%2FNNPI-02-Experiments.mp4&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.4a7ac89f-e34f-410f-a477-ca6f665daa99
 
 Na experiment tracking sme využili: https://wandb.ai/site/
-
-
-
-
-
-
-
-
-
-
-Čo treba urobiť(zoradené):
-
-5-10 experimentov
-
-hyberparameter search(buď grid search, alebo random forest) (wandb-sweep)
