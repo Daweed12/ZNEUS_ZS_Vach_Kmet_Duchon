@@ -55,4 +55,4 @@ V druhej fáze sme aplikovali čistenie a transformáciu dát: imputáciu číse
 V poslednej fáze sme sa sústredili na úpravu metrík(F1 skóre, confusion matrix) a experimentovanie: testovali sme rôzne architektúry MLP (vrstvy, výpadky, aktivácie), optimalizátory (Adam, RMSprop) a váhovanie skúšali pomocou *pos_weight*. Implementovali sme *GridSearch* pred hyperparametrom a zlepšili generalizáciu cez regularizáciu a výpadok. Na sledovanie výsledkov sme použili *Weights & Biases (wandb)*. Projekt bol ukončený porovnaním najlepších konfigurácií a diskusiou o vplyve jednotlivých funkcií a parametrov na výkon modelu.
 
 ## Ukážka Wandb experimentov s current_best:
-![alt text](projekt1/image.png)
+![alt text](image.png)
