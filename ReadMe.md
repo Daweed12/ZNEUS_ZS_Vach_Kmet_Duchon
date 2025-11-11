@@ -52,3 +52,6 @@ V druhej fáze sme aplikovali čistenie a transformáciu dát: imputáciu číse
 
 **Fáza 3 – Experimentovanie a vylepšenia**
 V poslednej fáze sme sa sústredili na úpravu metrík(F1 skóre, confusion matrix) a experimentovanie: testovali sme rôzne architektúry MLP (vrstvy, výpadky, aktivácie), optimalizátory (Adam, RMSprop) a váhovanie skúšali pomocou *pos_weight*. Implementovali sme *GridSearch* pred hyperparametrom a zlepšili generalizáciu cez regularizáciu a výpadok. Na sledovanie výsledkov sme použili *Weights & Biases (wandb)*. Projekt bol ukončený porovnaním najlepších konfigurácií a diskusiou o vplyve jednotlivých funkcií a parametrov na výkon modelu.
+
+#najlepsi vysledok wandb:
+![alt text](image.png)
