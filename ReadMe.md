@@ -1,3 +1,4 @@
+# Projekt 1
 ## Údaje a cieľ
 - Cieľový stĺpec: `match` (binárny).
 - Vstupné prvky: číselné stĺpce + vybrané kategorické stĺpce (`race`, `race_o`, `gender`, `field`).
@@ -55,3 +56,6 @@ V poslednej fáze sme sa sústredili na úpravu metrík(F1 skóre, confusion mat
 
 ## Ukážka Wandb experimentov s current_best:
 ![alt text](image.png)
+
+---
+# Projekt 2
