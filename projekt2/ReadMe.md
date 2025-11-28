@@ -12,3 +12,14 @@ Assigment:
 > https://www.kaggle.com/datasets/kapillondhe/americansign-language
 
 > Made by: David Vach, Krištof Kmeť, Alex Duchoň
+
+
+### ChangeLog:
+
+#### Week 1
+ - bla bla bla
+
+#### Week 2 
+
+
+#### Week 3 
