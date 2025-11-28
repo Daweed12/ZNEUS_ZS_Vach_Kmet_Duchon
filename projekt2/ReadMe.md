@@ -17,9 +17,7 @@ Assigment:
 ### ChangeLog:
 
 #### Week 1
- - bla bla bla
 
 #### Week 2 
-
 
 #### Week 3 
