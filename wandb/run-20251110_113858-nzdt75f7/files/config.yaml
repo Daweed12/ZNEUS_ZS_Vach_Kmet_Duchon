@@ -1,0 +1,69 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            ndef7kw14nnru1vcrrf66jmae9hpdmj8:
+                codePath: c:\Users\alexd\ZNEUS\ZNEUS_ZS_Vach_Kmet_Duchon\Project1.ipynb
+                codePathLocal: Project1.ipynb
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "1022781616128"
+                        used: "158695473152"
+                email: alexduchon007@gmail.com
+                executable: c:\Users\alexd\AppData\Local\Programs\Python\Python311\python.exe
+                git:
+                    commit: de5b8ecf21c362b0ad55aca54036839ce7d94fa1
+                    remote: https://github.com/Daweed12/ZNEUS_ZS_Vach_Kmet_Duchon.git
+                host: AlexovaKrabica
+                memory:
+                    total: "14806552576"
+                os: Windows-10-10.0.26100-SP0
+                program: c:\Users\alexd\ZNEUS\ZNEUS_ZS_Vach_Kmet_Duchon\Project1.ipynb
+                python: CPython 3.11.9
+                root: c:\Users\alexd\ZNEUS\ZNEUS_ZS_Vach_Kmet_Duchon
+                startedAt: "2025-11-10T10:38:58.884417Z"
+                writerId: ndef7kw14nnru1vcrrf66jmae9hpdmj8
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 5
+                - 32
+                - 53
+            "2":
+                - 1
+                - 5
+                - 32
+                - 53
+            "3":
+                - 1
+                - 2
+                - 13
+                - 16
+            "4": 3.11.9
+            "5": 0.22.3
+            "8":
+                - 1
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
+batch_size:
+    value: 1024
+lr:
+    value: 0.002
+max_epochs:
+    value: 60
+module__dropout_rate:
+    value: 0.3
+module__hidden_layers:
+    value:
+        - 640
+        - 320
+        - 160
+name:
+    value: Test_5_F1_0.571
+optimizer:
+    value: torch.optim.adam.Adam
