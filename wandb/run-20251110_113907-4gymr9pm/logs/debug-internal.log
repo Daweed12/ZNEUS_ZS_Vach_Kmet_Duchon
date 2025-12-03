@@ -1,0 +1,12 @@
+{"time":"2025-11-10T11:39:07.913105+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-10T11:39:08.3456678+01:00","level":"INFO","msg":"stream: created new stream","id":"4gymr9pm"}
+{"time":"2025-11-10T11:39:08.3456678+01:00","level":"INFO","msg":"handler: started","stream_id":"4gymr9pm"}
+{"time":"2025-11-10T11:39:08.3485093+01:00","level":"INFO","msg":"stream: started","id":"4gymr9pm"}
+{"time":"2025-11-10T11:39:08.3485093+01:00","level":"INFO","msg":"writer: started","stream_id":"4gymr9pm"}
+{"time":"2025-11-10T11:39:08.3485093+01:00","level":"INFO","msg":"sender: started","stream_id":"4gymr9pm"}
+{"time":"2025-11-10T11:39:12.0117153+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T11:39:12.3932726+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T11:39:12.3994416+01:00","level":"INFO","msg":"stream: closing","id":"4gymr9pm"}
+{"time":"2025-11-10T11:39:12.3994416+01:00","level":"INFO","msg":"handler: closed","stream_id":"4gymr9pm"}
+{"time":"2025-11-10T11:39:12.3999471+01:00","level":"INFO","msg":"sender: closed","stream_id":"4gymr9pm"}
+{"time":"2025-11-10T11:39:12.3999471+01:00","level":"INFO","msg":"stream: closed","id":"4gymr9pm"}
