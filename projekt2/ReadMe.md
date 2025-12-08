@@ -34,6 +34,7 @@ V druhej fáze sme navrhli a implementovali vlastnú CNN architektúru (SimpleCN
 V tretej fáze sme vytvorili vlastný, rozmanitejší dataset. Pre 10 vybraných písmen sme najprv nahrali približne 30-sekundové videá, z ktorých sme následne extrahovali po 150 snímok na osobu (pouzivali sme na to Android aplikáciu ffmpeg, spolu sme dostali približne 450 obrázkov pre každé písmeno). Tieto dáta sme skombinovali s existujúcimi ASL datasetmi a model znovu trénovali. Nový dataset bol výrazne variabilnejší (viac ľudí, rôzne pozície ruky a pod.), vďaka čomu sa sieť neoverfittovala tak rýchlo a tréningové výsledky boli stabilnejšie a realistickejšie. Napriek tomu však RealTime klasifikácia aj pri najlepšej vlastnej CNN zostala slabá – úspešnosť v živom teste bola približne len 3–4 správne rozpoznané gestá z 10 pokusov.
 
 Ukážka Wandb experimentov: 
+Prvé pokusy vlastnej CNN so zmiešanými datasetmi
 ![alt text](WandB_ukazka1.png)
 
 
